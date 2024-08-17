@@ -10,12 +10,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<React.StrictMode>
   <div>
-    <h1>My Favourite Foods</h1>
+    <h1 className = "heading" contentEditable = "true" spellCheck = "false">My Favourite Foods</h1>
     <ul>
       <li>Bacon</li>
       <li>Jamon</li>
       <li>Noodles</li>
     </ul>
-  </div>,
+  </div>
 </React.StrictMode>
 );
